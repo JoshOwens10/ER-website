@@ -2,7 +2,7 @@ body {
 
 margin: 0;
 padding: 0;
-font-family: sans-serif;
+
 }
 
 header {
@@ -26,7 +26,7 @@ header .logo {
 }
 
 header nav {
-  float: right
+  float: left;
 }
 
 header nav ul

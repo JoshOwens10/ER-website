@@ -1,17 +1,22 @@
+<?php
+session_start();
+ 
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
   <title>Jobs</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="ER1.css">
+  <link rel="stylesheet" type="text/css" href="ER3.css">
 </head>
 <body>
   <header>
     <nav>
       <ul>
-       <li> <a href="Jobs.php">Jobs </a> </li>
+       <li> <a href="index.php">Jobs </a> </li>
        <li> <a href="CarrerAdvice.php"class ="active">carrer Advice </a> </li>
        <li> <a href="CompanyProfiles.php">Company Profiles </a> </li>
        <li> <a href="ContactUs.php">Contact us </a> </li>
@@ -20,10 +25,10 @@
    </nav>
  </div>
 </header>
-<div class="col-md-12">
-  
-</div>
-<img src ="Aseets/Hero2.jpg" style="width: 100%">
+
+<div id ="jobS">
+
+  <img src ="Aseets/Hero2.jpg" style="width: 100%">
 </div>
 <div id = "lowerbody">
   <div class ="row">
@@ -52,5 +57,4 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
-</body>
-</html>
+
